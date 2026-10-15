@@ -1,32 +1,26 @@
-p {
-    color: green;
-    background-color: aliceblue;
-    font-size: 22px;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    font-style: italic;
+body{
+    font-family: Arial;
     text-align: center;
-    text-decoration: underline;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    word-spacing: 8px;
-    line-height: 35px;
-    text-shadow: 2px 2px 5px gray;
+    margin-top: 50px;
 }
 
-h1 {
-    text-align: center;
-    color: blue;
+input{
+    padding: 8px;
 }
 
-button {
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-    border: none;
+button{
+    padding: 8px;
+    margin-left: 5px;
+}
+
+li{
     margin: 10px;
 }
 
-.btn-container {
-    text-align: center;
+.delete{
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
 }
